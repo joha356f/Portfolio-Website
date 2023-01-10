@@ -1,0 +1,477 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #264565;
+}
+
+/* nav bar */
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  font-style: normal;
+}
+
+a:hover {
+  color: #c1272d;
+}
+
+.navbar {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2.5em;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5em;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255);
+}
+
+/* text  */
+
+h1 {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+
+  padding-bottom: 4em;
+  margin-top: 2em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+h3 {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+}
+
+/* portfolio page  */
+
+/* layout icons */
+
+.icon_cont {
+  display: flex;
+  flex-direction: row;
+}
+
+/* polaroid boxes */
+
+.polaroid_box a {
+  border-style: double;
+  background-color: transparent;
+  padding: 15px;
+  text-align: center;
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: auto;
+  margin-bottom: 2em;
+  color: white;
+  text-decoration: none;
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+}
+.polaroid_box {
+  width: 300px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio_page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2em;
+  row-gap: 3em;
+  justify-content: space-evenly;
+  padding: 2em;
+  background-color: var(--custom-white);
+  width: 100vw;
+}
+
+.portfolio_page > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+}
+
+.para1 {
+  width: 80%;
+  text-align: center;
+  margin-inline: auto;
+  font-family: elza-text, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #7297bd;
+}
+
+.imgcont > img {
+  width: 100%;
+  aspect-ratio: 7/4;
+  object-fit: cover;
+  margin: auto;
+}
+
+img {
+  overflow: clip;
+}
+
+.polaroid_box a:hover {
+  color: #c1272d;
+}
+
+/* Image display: all except UX */
+.website_1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 2em;
+  row-gap: 3em;
+
+  width: 100vw;
+}
+.website_text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.website_text > p {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  margin-left: 4em;
+  margin-right: 4em;
+  text-align: center;
+}
+
+.website_text > a {
+  border-style: double;
+  border-color: white;
+  background-color: transparent;
+
+  padding: 10px;
+  text-align: center;
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: auto;
+  margin-bottom: 2em;
+}
+
+.imgcont {
+  position: relative;
+}
+
+.imgcont > img {
+  display: block;
+  height: auto;
+  width: 300px;
+  aspect-ratio: 7/4;
+  object-fit: cover;
+  overflow: clip;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #264565;
+  overflow: hidden;
+  width: 350px;
+  height: 0%;
+  transition: 0.5s ease;
+}
+
+.imgcont:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+section > p {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.website_1 > p {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: center;
+  margin: 1em;
+  text-align: center;
+}
+.website_1 > a {
+  border-style: double;
+  border-color: white;
+  background-color: #264565;
+  padding: 10px;
+  text-align: center;
+  width: fit-content;
+  margin-inline: auto;
+  margin-top: auto;
+  margin-bottom: 2em;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* UX layout  */
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 2em;
+  justify-content: center;
+}
+.flex_container > img {
+  object-fit: cover;
+  max-width: 650px;
+}
+
+/*  video */
+
+#video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  gap: 1vh;
+  padding-block: 7vh;
+}
+iframe {
+  width: 40vw;
+  aspect-ratio: 16/9;
+}
+
+/* indhold buttons */
+
+#indhold_buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+#indhold_buttons > a {
+  border-style: double;
+  border-color: white;
+  background-color: transparent;
+  padding: 0.5em;
+  text-align: center;
+}
+
+/* java back 2 top class */
+.back2top {
+  text-align: center;
+  background-color: #395571;
+  padding: 5px;
+}
+
+/* powerpoint */
+
+#powerpoint {
+  max-width: max-content;
+  margin: auto;
+  padding-bottom: 5em;
+}
+
+/*  about me */
+.portrait {
+  aspect-ratio: 899/877;
+  width: 350px;
+  margin: 3em;
+}
+#icon_gallery {
+  margin: 20px;
+}
+
+.aboutme_grid {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
+}
+
+#para2 {
+  font-family: roc-grotesk, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  margin: 3em;
+  text-align: left;
+}
+/* media  */
+
+@media (max-width: 1300px) {
+  /*  nav & burger menu */
+
+  .nav-item > a {
+    font-size: 15px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    background-color: #264565;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .portfolio_page {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  .website_1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .imgcont {
+    margin: auto;
+  }
+  .website_text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  iframe {
+    aspect-ratio: 16/9;
+    margin: auto;
+    max-width: 560px;
+  }
+
+  .aboutme_grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .portrait {
+    margin: auto;
+    padding-top: 2em;
+  }
+}
+
+@media (max-width: 700px) {
+  .flex_container > img {
+    object-fit: cover;
+    max-width: 400px;
+  }
+  #video {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #indhold_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  h2 {
+    margin: 0.5rem;
+  }
+  .title_container {
+    display: none !important;
+  }
+
+  .title_container_mv {
+    display: block !important;
+  }
+}

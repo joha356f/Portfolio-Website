@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/kvr1nxg.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets.css" />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header id="top">
+      <nav class="navbar">
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html">PORTFOLIO</a>
+          </li>
+          <li class="nav-item">
+            <a href="aboutme.html">ABOUT ME</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="p_header">
+        <div class="p_title_container"><div class="p_title_sprite"></div></div>
+      </div>
+
+      <div class="portfolio_page">
+        <div class="polaroid_box">
+          <div class="icon_cont">
+            <div class="vs_container"><div class="vs_sprite"></div></div>
+            <div class="fz_container"><div class="fz_sprite"></div></div>
+          </div>
+          <h1>Grundlæggende Web</h1>
+          <div class="para1">
+            <p>Here we were introduced to some of the programs a multimediadesigner typically uses. We learned to use Visual Studio Code, where we were introduced to basic HTML and CSS.</p>
+          </div>
+
+          <a id="gw_link" onclick="navigateGw()">Read more here...</a>
+        </div>
+
+        <div class="polaroid_box">
+          <div class="icon_cont">
+            <div class="xd_container"><div class="xd_sprite"></div></div>
+            <div class="ps_container"><div class="ps_sprite"></div></div>
+          </div>
+          <h1>Grundlæggende UX</h1>
+          <div class="para1">
+            <p>
+              In this topic we were challenged to think about how users interact with and experience a product. We were introduced to Adobe XD & Photoshop aswell as design concepts. We also looked into multiple research methods, which is an important
+              part of UX and understanding the user.
+            </p>
+          </div>
+          <a id="ux_link" onclick="navigateUx()">Read more here...</a>
+        </div>
+
+        <div class="polaroid_box">
+          <div class="icon_cont">
+            <div class="ai_container"><div class="ai_sprite"></div></div>
+            <div class="js_container"><div class="js_sprite"></div></div>
+          </div>
+          <h1>Grundlæggende Animation</h1>
+
+          <div class="para1">
+            <p>In this topic we were introduced to Javascript, a program used to create interactive and dynamic website design. We also learnt to use Adobe Illustrator, which we used to create the drawings for our animation game.</p>
+          </div>
+          <a id="animation_link" onclick="navigateAnimation()">Read more here...</a>
+        </div>
+
+        <div class="polaroid_box">
+          <div class="icon_cont">
+            <div class="pr_container"><div class="pr_sprite"></div></div>
+            <div class="au_container"><div class="au_sprite"></div></div>
+          </div>
+          <h1>Grundlæggende Indhold</h1>
+          <div class="para1">
+            <p>
+              In this topic we looked into video production. We made two video projects throughout this topic, aswell a website for each. We were introduced to Premiere Pro, which we used to edit our videos, and Adobe Audition, which we used to edit
+              our audio.
+            </p>
+          </div>
+          <a id="indhold_link" onclick="navigateIndhold()">Read more here...</a>
+        </div>
+      </div>
+    </main>
+
+    <!--  Grundlæggende web -->
+
+    <section id="gw_head">
+      <div class="gw_title_container"><div class="gw_title_sprite"></div></div>
+      <h2>
+        This topic consisted of two big projects: the semester start exam website and the 'emnesite'. We were introduced to basic HTML and CSS aswell as FileZilla. In the first project we were given layout diagrammes & wireframes to follow but
+        freedom in design through CSS. The second project was similar but with far more freedom. We could apply all the skills we had learnt and create a website - where we could choose the subject. I enjoyed this topic - I felt confident in my
+        abilities after a short amount of time, and the things that had felt so overwhelming to begin with quickly began to flow.
+      </h2>
+
+      <!--  semester start website  -->
+
+      <div class="website_1">
+        <div class="imgcont">
+          <img src="assets/06_01/ss.page1.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Front page</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/ss_page2.webp" alt="" />
+          <div class="overlay">
+            <div class="text">My computer</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/ss_page3.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Components</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/ss_page4.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Gallery</div>
+          </div>
+        </div>
+      </div>
+      <div class="website_text">
+        <a href="http://danashouse.dk/kea/02_web/01_website/website/">See the website here!</a>
+        <p>
+          Here are some images of the first website I made aswell as a link. We learnt how to use grid and flexbox aswell as media queries to make the site responsive. We coded 'mobile first' meaning we designed the layout to be responsive for a
+          mobile to start off with.
+        </p>
+      </div>
+
+      <!-- emnesite -->
+
+      <div class="website_1">
+        <div class="imgcont">
+          <img src="assets/06_01/styletile.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Style Tile</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/moodboard.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Moodboard</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/front.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Front page</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/page_2.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Information page</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/page_3.webp" alt="" />
+          <div class="overlay">
+            <div class="text">How to help?</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_01/page_4.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Gallery</div>
+          </div>
+        </div>
+
+        <p>
+          'Save The Bees' was the second website I made. Here we were able to learn about some design principles, as we had to make a moodboard and a style tile for the site. I wanted to portray a mixture of retro style and swiss style in my site. I
+          made the background for the site on Adobe XD, which was also the first opportunity I had to experiment with that program.
+        </p>
+        <a href="http://danashouse.dk/kea/02_web/emnesite/index.html">See the website here!</a>
+      </div>
+    </section>
+    <section class="back2top"><a class="end_link" onclick="navigateTop()">Back To Top...</a></section>
+
+    <!-- UX tema -->
+
+    <section id="ux_head">
+      <div class="ux_title_container"><div class="ux_title_sprite"></div></div>
+      <h2>
+        In this topic we were challenged to think about how users interact with and experience a product. We designed our own clothing brand, where we learnt about design concepts and the idea process in depth. We were also introduced to several
+        research methods, which we used to gather information for our brand. I wanted to create a sustainable clothing brand for young, creative people - with this in mind I started with some desk reserach which gave me a broader understanding. I
+        then did obersvational research, an interview and a survey. My research findings are below in a google slides document.
+      </h2>
+      <div id="powerpoint">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQr1zk3rCYjBJJK0yI5-HBzSnKV0re6BSmd-oolqcOlDBW_S1DPxaoqD_t0rpc3ZCYmQvu6ZtN8uSkE/embed?start=false&loop=false&delayms=3000"></iframe>
+      </div>
+      <h2>
+        After I had plenty of information from my research, I started sketching ideas for my brand where I used the 'Crazy 8' technique to prompt some ideas. Then I began experimenting on Adobe XD to make some mock-ups, where you are able to link
+        artboards to depict pop-ups or linked pages. I made a moodboard and style tile, aswell as a frontpage, shop page and a prouct view page.
+      </h2>
+      <div class="flex_container">
+        <img src="assets/06_02/moodboard_02.webp" alt="" class="moodboard" />
+        <img src="assets/06_02/styletile_02.webp" alt="" class="styletile" />
+        <img src="assets/06_02/frontpage_02.webp" alt="" class="frontpage_02" />
+        <img src="assets/06_02/shop_02.webp" alt="" class="shop" />
+        <img src="assets/06_02/productview.webp" alt="" class="productview" />
+      </div>
+    </section>
+    <section class="back2top"><a class="end_link" onclick="navigateTop()">Back To Top...</a></section>
+    <!-- ANIMATIONS TEMA -->
+
+    <section id="animation">
+      <div class="animation_title_container"><div class="animation_title_sprite"></div></div>
+      <h2>
+        In this topic we were challenged to design and program a videogame. We started by brainstorming ideas, making paper prototypes and sketches of the game elements. We then used Adobe Illustrator to draw the designs and exported them as SVG
+        files. The design process of this topic has definitely been my favourite part of the semester, I really enjoyed learning about Adobe Illustrator and experimenting with all the possibilities. When we had our exported game elements, we began to
+        code. We were then introduced to JavaScript, which we used to make our game elements interactive. This was definitely the most challenging part of the course for me, however learning JavaScript opened up lots of opportunities that I have now
+        used in other projects. For instance the burger menu and scrolling action on this website.
+      </h2>
+      <div class="website_1">
+        <div class="imgcont">
+          <img src="assets/06_03/game.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Front page</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_03/game_2.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Instructions</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_03/game_3.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Game screen</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_03/game_4.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Game Over</div>
+          </div>
+        </div>
+
+        <a href="https://danashouse.dk/kea/website_final/index.html">See the website here!</a>
+        <p>
+          Along with the videogame, I have made a website documenting the entire process of making the game. The initial sketches, state machine- & activity diagrammes, the concept & idea of the game and all the assets within the game. Click the link
+          to see.
+        </p>
+      </div>
+    </section>
+    <section class="back2top"><a class="end_link" onclick="navigateTop()">Back To Top...</a></section>
+
+    <!--  INDHOLD TEMA -->
+
+    <section id="indhold">
+      <div class="indhold_title_container"><div class="indhold_title_sprite"></div></div>
+      <h2>
+        In this topic we learnt about video production and post-production of photos and footage. We were also introduced to the Tech Lounge, where we could borrow equiptment. We had two big projects within this topic - the first was a one minute
+        long video about a specific passion. We chose to interview Hjalte, who has a passion for rollerblading. We used a DJI osmo pocket to record the footage and a RØDE clip-on microphone for the audio. I then used Premiere Pro to edit the footage
+        afterwards. In the second project we were to make a promotional video for a brand/company and a re-design of their website in a group. We chose the company 'Outdoor Action', as we thought that their website was a little complicated. I
+        re-designed the 'inspiration' page. We were also introduced to GitHub here, which allowed us all to work on one website simultaniously. Below is a documentation of the entire process, aswell as the videos & websites we made.
+      </h2>
+      <div id="powerpoint">
+        <iframe src="https://docs.google.com/document/d/e/2PACX-1vS4bASchydm2WJIzO3CFbzECUXOGx_ww3dkrCnEDhxn1fVzYKp0nu9xMgi03QL7k26yQlCEkrsXnW7M/pub?embedded=true"></iframe>
+      </div>
+      <div class="website_1">
+        <div class="imgcont">
+          <img src="assets/06_04/pilotsite.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Pilot site</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_04/pilotsite_2.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Pilot site</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_04/oa_1.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Outdoor Action redesign</div>
+          </div>
+        </div>
+
+        <div class="imgcont">
+          <img src="assets/06_04/oa_3.webp" alt="" />
+          <div class="overlay">
+            <div class="text">Outdoor Action redesign</div>
+          </div>
+        </div>
+      </div>
+
+      <section id="video">
+        <iframe src="https://www.youtube.com/embed/GP-opvApbCM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/ARZVXRIYYkk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </section>
+      <div id="indhold_buttons">
+        <a href="https://danashouse.dk/kea/pilot-site/">See the pilot site here!</a>
+        <a href="http://nordiclive.dk/kea/05_indhold/02_redesign/">See the re-designed website here!</a>
+      </div>
+    </section>
+    <h2>
+      I enjoyed creating and editing video content in this topic. However, it was a little challenging working as a group, with so many ideas being thrown around. We made a trello board to organise the workload, however it quickly became confusing
+      and was disreguarded. In the future I will make sure to voice my opinions more in the meetings. GitHub is a fantastic tool when it comes to coding in a group projects, we had very few issues with overwriting eachother.
+    </h2>
+    <section class="back2top"><a class="end_link" onclick="navigateTop()">Back To Top...</a></section>
+    <script src="script.js"></script>
+  </body>
+  <!-- <footer>
+    <h2>Dana Vennerstrøm Johnson</h2>
+  </footer> -->
+</html>

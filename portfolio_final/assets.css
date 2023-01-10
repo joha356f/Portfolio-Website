@@ -1,0 +1,236 @@
+/* front page images */
+
+.title_container {
+  width: 79%;
+  aspect-ratio: 1363/730;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.title_sprite {
+  background-image: url("assets/SVG/title_white.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.title_container_mv {
+  width: 60%;
+  aspect-ratio: 363/720;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.title_sprite_mv {
+  background-image: url("assets/SVG/title_white_mv.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+/* portfolio page  */
+
+.vs_container {
+  width: 40%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.vs_sprite {
+  background-image: url("assets/SVG/vs_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.fz_container {
+  width: 40%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.fz_sprite {
+  background-image: url("assets/SVG/fz_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.xd_container {
+  width: 42%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.xd_sprite {
+  background-image: url("assets/SVG/xd_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.ps_container {
+  width: 40%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.ps_sprite {
+  background-image: url("assets/SVG/ps_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.js_container {
+  width: 40%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.js_sprite {
+  background-image: url("assets/SVG/js_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.ai_container {
+  width: 40%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.ai_sprite {
+  background-image: url("assets/SVG/ai_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.pr_container {
+  width: 42%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.pr_sprite {
+  background-image: url("assets/SVG/pr_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.au_container {
+  width: 39%;
+  aspect-ratio: 372/335;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.au_sprite {
+  background-image: url("assets/SVG/au_icon.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.p_title_container {
+  width: 90%;
+  aspect-ratio: 1901/278;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.p_title_sprite {
+  background-image: url("assets/SVG/portfolio_title.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.gw_title_container {
+  width: 90%;
+  aspect-ratio: 1917/489;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.gw_title_sprite {
+  background-image: url("assets/SVG/gw_title.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.ux_title_container {
+  width: 90%;
+  aspect-ratio: 1917/489;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.ux_title_sprite {
+  background-image: url("assets/SVG/ux_title.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+.animation_title_container {
+  width: 90%;
+  aspect-ratio: 1951/494;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.animation_title_sprite {
+  background-image: url("assets/SVG/animation_title.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.indhold_title_container {
+  width: 90%;
+  aspect-ratio: 1922/475;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.indhold_title_sprite {
+  background-image: url("assets/SVG/indhold_title.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+.aboutme_container {
+  width: 90%;
+  aspect-ratio: 1788/197;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+.aboutme_sprite {
+  background-image: url("assets/SVG/about_me.svg");
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
